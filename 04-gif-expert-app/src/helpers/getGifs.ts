@@ -1,3 +1,5 @@
+import 'whatwg-fetch';
+import fetch from 'cross-fetch';
 import type { ImageResponse } from "./gifImageInterface";
 
 export const getGifs = async (category: string ) => {
