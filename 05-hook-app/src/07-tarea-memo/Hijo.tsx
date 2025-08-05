@@ -7,7 +7,7 @@ interface HijoInterface {
 
 export const Hijo = memo(({ numero, incrementar }: HijoInterface) => {
 
-    console.log('  Me volví a generar :(  ');
+    // console.log('  Me volví a generar :(  ');
 
     return (
         <button

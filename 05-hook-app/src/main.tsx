@@ -12,7 +12,9 @@ import { createRoot } from 'react-dom/client'
 // import { MemoHook } from './06-useMemo/MemoHook'
 // import { CallbackHook } from './06-useMemo/CallbackHook'
 import './index.css'
-import { Padre } from './07-tarea-memo/Padre'
+import { TodoApp } from './08-useReducer/TodoApp'
+// import { Padre } from './07-tarea-memo/Padre'
+// import './08-useReducer/intro-reducer'
 
 
 createRoot(document.getElementById('root')!).render(
@@ -28,6 +30,7 @@ createRoot(document.getElementById('root')!).render(
     {/* <Memorize /> */}
     {/* <MemoHook /> */}
     {/* <CallbackHook /> */}
-    <Padre />
+    {/* <Padre /> */}
+    <TodoApp />
   </StrictMode>,
 )
